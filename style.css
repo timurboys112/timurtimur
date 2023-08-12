@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: beige;
+    color: black;
+}
+
+.header h1{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.hero{
+    background-image: url(Super_Junior_Celebrates_15th_Debut_Anniversary_With_Messages_Of_Thanks_And_Love.jpg);
+    height: 150px;
+    text-align: center;
+    padding: 150px;
+}
+
+.hero h1{
+    color: coral;
+    font-size: 30px;
+}
+
+.hero p{
+    color: coral;
+}
+
+.hero a{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.all-produk{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produk{
+    background-color: white;
+    width: 20px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 150px;
+}
+
+.produk img{
+    height: 150px;
+    width: 100px;
+}
+
+.produk p{
+    font-weight: bold;
+}
+
+.produk a{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .produk{
+        width: 500px;
+        height: 300px;
+    }
+}
